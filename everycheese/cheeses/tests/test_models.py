@@ -4,6 +4,7 @@ pytestmark = pytest.mark.django_db
 
 from ..models import Cheese
 
+
 def test__str__():
     cheese = Cheese.objects.create(
         name="Stracchino",
